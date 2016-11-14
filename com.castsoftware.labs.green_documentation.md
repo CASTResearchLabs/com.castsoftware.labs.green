@@ -29,15 +29,16 @@ The Research Labs released this first version of the GreenIT Index to leverage t
 
 The GreenIT Index is based on the following Technical Criteria
 
-* GreenIT - focus on "pipe leaks"
-* GreenIT - focus on "pipe ruptures"
+* GreenIT - focus on "pipe leaks" - algorithmic costs
+* GreenIT - focus on "pipe leaks" - resource economy
+* GreenIT - focus on "pipe leaks" - data access efficiency
+* GreenIT - focus on "pipe ruptures" - avoiding failures
 
 The Technical Criteria have been populated with Quality Rules with aggregate weight greater or equal to 5 of the following existing Technical Criteria:
 
 * Efficiency - Expensive Calls in Loops
 * Efficiency - Memory, Network and Disk Space Management
 * Efficiency - SQL and Data Handling Performance
-* Complexity - Dynamic Instantiation
 * Complexity - SQL Queries
 * Programming Practices - Error and Exception Handling
 * Programming Practices - Unexpected Behavior
@@ -49,11 +50,15 @@ If you are interested in getting a preview of what the GreenIT index would be an
 
 # Release notes
 
+## 2.1.0
+
+Release 2.1.0 changes the organization of the index, via evolved dedicated Technical Criteria, to more accurately map the type of issues at hand, and refine selection.
+
 ## 2.0.0
 
 Release 2.0.0 changes the organization and composition of the index, via dedicated Technical Criteria, to better map the type of issues at hand, and refine selection.
 
-# _com.castsoftware.labs.green_ technology support
+# Technology support
 
 All technologies supported out-of-the-box by CAST AIP are supported.
 In case of technologies supported by some AIP extensions, contact the Research Labs to build a compatible GreenIT index.
@@ -67,7 +72,7 @@ This extension is designed to bring new quality indicator aside existing ones.
 This extension is compatible with:
 
 * 8.1.x out-of-the-box \(AIP release used for the tests\)
-* 8.0.x after changing the nuspec file \(there is no reason the extension would not work but it was not tested\)
+* 8.0.x out-of-the-box \(there is no reason the extension would not work but it was not tested\)
 * 7.x.x after changing the nuspec file \(there is no reason the extension would not work but it was not tested\)
 
 # Supported DBMS servers
@@ -89,10 +94,10 @@ Please see:  [Extension Link Installation](http://doc.castsoftware.com/display/D
 The installation steps are the following:
 
 * download the extension through the CAST Extension Downloader using the https://extend.castsoftware.com:443/labs download server
-* open Server Manager 8.1+
+* open Server Manager 8.x
 * select the existing set of databases to update \/ install a new set of databases
 * manage extensions of the existing set of database \/ follow the installation wizard up to the manage extension pane
-* select _com.castsoftware.labs.green.2.0.0_
+* select _com.castsoftware.labs.green.2.1.0_
 * run the update \/ the installation  
 * open CAST Management Studio
 * import the Assessment Model from the Dashboard Service processed in steps \#3 to \#6 above; this is a _Mandatory_ step to start computing the new indicator, one MUST import and use the Assessment Model from the Dashboard that was updated with the extension
@@ -123,8 +128,10 @@ N\/A
 
 List of new Technical Criteria
 
-* GreenIT - focus on "pipe leaks"
-* GreenIT - focus on "pipe ruptures"
+* GreenIT - focus on "pipe leaks" - algorithmic costs
+* GreenIT - focus on "pipe leaks" - resource economy
+* GreenIT - focus on "pipe leaks" - data access efficiency
+* GreenIT - focus on "pipe ruptures" - avoiding failures
 
 ## Business Criteria
 
