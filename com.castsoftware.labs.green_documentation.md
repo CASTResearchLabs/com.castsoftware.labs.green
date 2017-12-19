@@ -29,8 +29,10 @@ The Research Labs released this first version of the GreenIT Index to leverage t
 
 The GreenIT Index is based on the following Technical Criteria
 
-* GreenIT - focus on "pipe leaks"
-* GreenIT - focus on "pipe ruptures"
+* GreenIT - focus on "pipe leaks" - data access efficiency
+* GreenIT - focus on "pipe leaks" - algorithmic costs
+* GreenIT - focus on "pipe leaks" - resource economy
+* GreenIT - focus on pipe ruptures - avoiding failure
 
 The Technical Criteria have been populated with Quality Rules with aggregate weight greater or equal to 5 of the following existing Technical Criteria:
 
@@ -125,8 +127,10 @@ N\/A
 
 List of new Technical Criteria
 
-* GreenIT - focus on "pipe leaks"
-* GreenIT - focus on "pipe ruptures"
+* GreenIT - focus on "pipe leaks" - data access efficiency
+* GreenIT - focus on "pipe leaks" - algorithmic costs
+* GreenIT - focus on "pipe leaks" - resource economy
+* GreenIT - focus on pipe ruptures - avoiding failure
 
 ## Business Criteria
 
